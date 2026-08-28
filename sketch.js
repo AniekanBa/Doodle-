@@ -223,7 +223,7 @@ function drawStartScreen() {
   text("Doodle Jump", width / 2, height / 2 - 40);
   textSize(16);
   text("← → or A / D to move", width / 2, height / 2);
-  text("Press SPACE to start", width / 2, height / 2 + 30);
+  text("Press SPACE to Start", width / 2, height / 2 + 30);
 }
 
 function drawGameOverScreen() {
@@ -234,7 +234,7 @@ function drawGameOverScreen() {
   textSize(18);
   text("Score: " + score, width / 2, height / 2);
   textSize(16);
-  text("Press SPACE to restart", width / 2, height / 2 + 40);
+  text("Press SPACE to Restart", width / 2, height / 2 + 40);
 }
 
 function keyPressed() {
