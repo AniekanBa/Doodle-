@@ -1,0 +1,21 @@
+* { 
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/*I got this above part from chatgpt*/
+
+body {
+background-color: #1e1e1e;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+canvas {
+border: 3px solid #444;
+background-color: #f0f0f0;
+}
